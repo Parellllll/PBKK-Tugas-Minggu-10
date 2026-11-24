@@ -1,0 +1,24 @@
+# Dependencies
+vendor/
+CI4/vendor/
+node_modules/
+
+# Environment & runtime
+.env
+CI4/.env
+CI4/writable/cache/*
+!CI4/writable/cache/index.html
+CI4/writable/logs/*
+!CI4/writable/logs/index.html
+CI4/writable/session/*
+!CI4/writable/session/index.html
+CI4/writable/debugbar/*
+!CI4/writable/debugbar/index.html
+CI3/application/cache/*
+!CI3/application/cache/index.html
+CI3/application/logs/*
+!CI3/application/logs/index.html
+
+# OS
+.DS_Store
+Thumbs.db
